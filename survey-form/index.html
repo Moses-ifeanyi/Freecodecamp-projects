@@ -19,7 +19,7 @@
       <input type="email" id="email" name="email" placeholder="Enter a Valid email" class="feedback" required>
       
       <label for="age" id="number-label">Age:</label>
-        <input type="number" id="number" class="feedback" min="10" max="60" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        <input type="number" id="number" placeholder="Enter your age" value="age" class="feedback" min="10" max="60" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
       
         <section class="select">
             <p>Which option best describes you:</p>
@@ -101,7 +101,7 @@
         <textarea id="feedback" name="feedback" class="feedback"></textarea>
       </section>
       
-      <input type="submit" value="Submit" class="submit-button">
+      <input type="submit" id="submit" value="Submit" class="submit-button">
     </form>
 </div>
     <footer>
